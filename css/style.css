@@ -8,13 +8,15 @@ dark blue:#1c3eff
 */
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
@@ -22,8 +24,9 @@ body {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.7;
-    color: #777777;
+    color: #532222;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 header {
