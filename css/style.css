@@ -38,18 +38,18 @@ header {
     clip-path: ellipse(67% 60% at 50% 30%);
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.logo {
+.header__logo {
     height: 70px;
 }
 
-.logo-box {
+.header__logo-box {
     position: absolute;
     top: 30px;
     left: 30px;
@@ -78,7 +78,7 @@ header {
     }
 } */
 
-.heading-primary__main {
+.heading-primary--main {
     display: block;
     font-size: 6.2rem;
     font-weight: 400;
@@ -100,7 +100,7 @@ header {
     }
 }
 
-.heading-primary__sub {
+.heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -122,7 +122,7 @@ header {
     }
 }
 
-.text-box {
+.header__text-box {
     text-align: center;
 }
 
@@ -140,7 +140,7 @@ header {
     transition: all .2s
 }
 
-.btn-white {
+.btn--white {
     color: #777777;
     background-color: #fff;
 }
@@ -174,7 +174,7 @@ header {
     opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInBottom .5s ease-out 0.75s backwards;
 }
 
