@@ -7,9 +7,13 @@ dark blue:#1c3eff
 
 */
 
+@import './Abstracts/_mixins.scss';
 @import './Abstracts/variables';
 @import './Base/animations';
 @import './Base/base';
 @import './Base/typography';
+@import './Base/utilities';
 @import './Components/buttons';
 @import './Layout/header';
+@import './Layout/grid';
+@import './Pages/home';
